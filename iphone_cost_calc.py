@@ -3,7 +3,7 @@ from openpyxl.styles import Font, numbers
 import os
 
 # Путь сохранения файла
-file_path = r"D:\Python projects\P4Git\iPhone_17_Pro_Max_Calc.xlsx"
+file_path def test:= r"D:\Python projects\P4Git\iPhone_17_Pro_Max_Calc.xlsx"
 os.makedirs(os.path.dirname(file_path), exist_ok=True)
 
 wb = Workbook()
