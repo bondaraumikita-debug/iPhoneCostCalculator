@@ -54,7 +54,7 @@ for col, h in enumerate(headers, start=1):
 
 data_row = col_row + 1
 
-# Формулы Excel
+# Формулы Excel тут будут # test commit with timestamp
 ws[f"A{data_row}"] = "=B2*B3"                                  # Закупка
 ws[f"B{data_row}"] = f"=A{data_row}*(B8/100)"                  # Утильсбор
 ws[f"C{data_row}"] = "=B4"                                     # Доставка
